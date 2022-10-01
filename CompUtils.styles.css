@@ -1,4 +1,4 @@
-/* _content/CompUtils/Shared/MainLayout.razor.rz.scp.css */
+/* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-0f66tdh2a5] {
     position: relative;
     display: flex;
@@ -80,7 +80,7 @@ main[b-0f66tdh2a5] {
         padding-right: 1.5rem !important;
     }
 }
-/* _content/CompUtils/Shared/NavMenu.razor.rz.scp.css */
+/* /Shared/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-7c38d2iunz] {
     background-color: rgba(255, 255, 255, 0.1);
 }
