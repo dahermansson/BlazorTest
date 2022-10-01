@@ -12,13 +12,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include=".nojekyll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.9" />
+	<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.9" PrivateAssets="all" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.9" />
-	<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.9" PrivateAssets="all" />
+    <Content Update="wwwroot\.nojekyll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 </Project>
